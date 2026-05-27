@@ -58,6 +58,14 @@ const projects = [
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://modelo-loja-roupas.vercel.app',
   },
+  {
+    title: 'Petshop',
+    niche: 'Site para petshop',
+    description:
+      'Modelo para apresentar serviços de banho e tosa, produtos, diferenciais da loja e contato para agendamento.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-petshop-d5hj0hn9t-eduardofortes10s-projects.vercel.app/',
+  },
 ];
 
 export default function Projects() {
