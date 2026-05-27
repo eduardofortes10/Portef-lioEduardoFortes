@@ -16,7 +16,7 @@ const projects = [
     description:
       'Modelo profissional para apresentar serviços, especialidades, informações da clínica e contato para agendamento.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-sa-de-portof-7fnyvsg8w-eduardofortes10s-projects.vercel.app/',
+    demoUrl: 'https://modelo-sa-de-portof-lio.vercel.app/',
   },
   {
     title: 'Clínica Odontológica',
@@ -48,7 +48,7 @@ const projects = [
     description:
       'Modelo para apresentar serviços de banho e tosa, produtos, diferenciais da loja e contato para agendamento.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-petshop-d5hj0hn9t-eduardofortes10s-projects.vercel.app/',
+    demoUrl: 'https://modelo-petshop-lake.vercel.app/',
   },
 ];
 
