@@ -1,6 +1,6 @@
-import { ArrowUpRight, Github } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 
-// Troque demoUrl e githubUrl pelos links reais da Vercel e do GitHub.
+// Troque demoUrl pelos links reais da Vercel quando publicar novos modelos.
 const projects = [
   {
     title: 'Barbearia Prime Cut',
@@ -9,7 +9,6 @@ const projects = [
       'Modelo moderno e responsivo para barbearias, com serviços, preços, galeria e botão de agendamento pelo WhatsApp.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://modelobarbearia-zeta.vercel.app/',
-    githubUrl: 'https://github.com/seu-usuario/modelo-barbearia',
   },
   {
     title: 'Clínica / Saúde',
@@ -18,7 +17,6 @@ const projects = [
       'Modelo profissional para apresentar serviços, especialidades, informações da clínica e contato para agendamento.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://modelo-sa-de-portof-7fnyvsg8w-eduardofortes10s-projects.vercel.app/',
-    githubUrl: 'https://github.com/seu-usuario/modelo-clinica-saude',
   },
   {
     title: 'Aluguel de Quadras',
@@ -27,7 +25,6 @@ const projects = [
       'Projeto de TCC para apresentar quadras disponíveis, informações do serviço e experiência simples para usuários.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://aluguel-de-quadras-xomr.vercel.app/',
-    githubUrl: 'https://github.com/seu-usuario/aluguel-de-quadras',
   },
   {
     title: 'Pizzaria Bella Massa',
@@ -36,7 +33,6 @@ const projects = [
       'Modelo comercial para pizzaria com cardápio, combos, avaliações, localização e botão de pedido pelo WhatsApp.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://modelo-pizzaria.vercel.app',
-    githubUrl: 'https://github.com/seu-usuario/modelo-pizzaria',
   },
   {
     title: 'Personal Trainer',
@@ -45,7 +41,6 @@ const projects = [
       'Modelo para divulgar planos, resultados, depoimentos e chamada para avaliação ou consultoria online.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://modelo-personal.vercel.app',
-    githubUrl: 'https://github.com/seu-usuario/modelo-personal',
   },
   {
     title: 'Loja de Roupas',
@@ -54,7 +49,6 @@ const projects = [
       'Modelo visual para destacar coleções, produtos, promoções e contato direto para compra.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://modelo-loja-roupas.vercel.app',
-    githubUrl: 'https://github.com/seu-usuario/modelo-loja-roupas',
   },
 ];
 
@@ -96,24 +90,15 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              <div className="mt-6">
                 <a
                   href={project.demoUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="primary-button"
+                  className="primary-button w-full"
                 >
                   Ver site
                   <ArrowUpRight size={17} />
-                </a>
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="secondary-button"
-                >
-                  Ver código
-                  <Github size={17} />
                 </a>
               </div>
             </article>

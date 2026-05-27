@@ -7,12 +7,20 @@ export default function About() {
           <h2 className="section-title mt-3">Conheça meu trabalho</h2>
         </div>
         <div className="card-base p-6 sm:p-8">
-          <p className="text-lg leading-8 text-slate-700">
-            Sou formado no Ensino Médio Técnico em Informática e atualmente curso Engenharia da
-            Computação. Tenho interesse em desenvolvimento web, tecnologia e criação de soluções
-            digitais. Meu foco é criar páginas modernas, responsivas e organizadas para pequenos
-            negócios e profissionais autônomos.
-          </p>
+          <div className="space-y-5 text-lg leading-8 text-slate-700">
+            <p>
+              Sou formado no Ensino Médio Técnico em Informática e atualmente curso Engenharia da
+              Computação. Trabalho com desenvolvimento front-end criando páginas modernas,
+              responsivas e bem estruturadas para pequenos negócios, profissionais autônomos e
+              projetos que precisam de uma presença digital mais profissional.
+            </p>
+            <p>
+              Faço projetos com atenção à organização visual, clareza das informações, boa
+              experiência no celular e facilidade de manutenção. Meu objetivo é entregar sites
+              objetivos, confiáveis e alinhados com a necessidade de cada cliente, sempre cuidando
+              da qualidade do código e da apresentação final.
+            </p>
+          </div>
         </div>
       </div>
     </section>
