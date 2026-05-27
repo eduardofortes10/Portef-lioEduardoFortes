@@ -32,7 +32,7 @@ const projects = [
     description:
       'Modelo comercial para pizzaria com cardápio, combos, avaliações, localização e botão de pedido pelo WhatsApp.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-pizzaria.vercel.app',
+    demoUrl: 'https://modelo-pizzaria-mu.vercel.app/',
   },
   {
     title: 'Personal Trainer',
