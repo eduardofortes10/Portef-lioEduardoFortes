@@ -43,22 +43,6 @@ const projects = [
     demoUrl: 'https://modelo-pizzaria-mu.vercel.app/',
   },
   {
-    title: 'Personal Trainer',
-    niche: 'Página para profissional fitness',
-    description:
-      'Modelo para divulgar planos, resultados, depoimentos e chamada para avaliação ou consultoria online.',
-    technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-personal.vercel.app',
-  },
-  {
-    title: 'Loja de Roupas',
-    niche: 'Vitrine online para loja',
-    description:
-      'Modelo visual para destacar coleções, produtos, promoções e contato direto para compra.',
-    technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-loja-roupas.vercel.app',
-  },
-  {
     title: 'Petshop',
     niche: 'Site para petshop',
     description:
