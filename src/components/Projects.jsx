@@ -19,6 +19,14 @@ const projects = [
     demoUrl: 'https://modelo-sa-de-portof-7fnyvsg8w-eduardofortes10s-projects.vercel.app/',
   },
   {
+    title: 'Clínica Odontológica',
+    niche: 'Site para dentista',
+    description:
+      'Modelo profissional para consultórios odontológicos, com apresentação dos tratamentos, diferenciais e chamada para agendamento.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-dentista-peach.vercel.app/',
+  },
+  {
     title: 'Aluguel de Quadras',
     niche: 'Sistema visual para aluguel de quadras',
     description:
