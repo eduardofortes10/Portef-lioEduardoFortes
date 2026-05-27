@@ -1,0 +1,125 @@
+import { ArrowUpRight, Github } from 'lucide-react';
+
+// Troque demoUrl e githubUrl pelos links reais da Vercel e do GitHub.
+const projects = [
+  {
+    title: 'Barbearia Prime Cut',
+    niche: 'Landing page para barbearia',
+    description:
+      'Modelo moderno e responsivo para barbearias, com serviços, preços, galeria e botão de agendamento pelo WhatsApp.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-barbearia.vercel.app',
+    githubUrl: 'https://github.com/seu-usuario/modelo-barbearia',
+  },
+  {
+    title: 'Pizzaria Bella Massa',
+    niche: 'Landing page para pizzaria',
+    description:
+      'Modelo comercial para pizzaria com cardápio, combos, avaliações, localização e botão de pedido pelo WhatsApp.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-pizzaria.vercel.app',
+    githubUrl: 'https://github.com/seu-usuario/modelo-pizzaria',
+  },
+  {
+    title: 'Personal Trainer',
+    niche: 'Página para profissional fitness',
+    description:
+      'Modelo para divulgar planos, resultados, depoimentos e chamada para avaliação ou consultoria online.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-personal.vercel.app',
+    githubUrl: 'https://github.com/seu-usuario/modelo-personal',
+  },
+  {
+    title: 'Clínica de Estética',
+    niche: 'Site para clínica e beleza',
+    description:
+      'Página elegante para apresentar procedimentos, diferenciais, equipe, localização e agendamento.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-clinica-estetica.vercel.app',
+    githubUrl: 'https://github.com/seu-usuario/modelo-clinica-estetica',
+  },
+  {
+    title: 'Loja de Roupas',
+    niche: 'Vitrine online para loja',
+    description:
+      'Modelo visual para destacar coleções, produtos, promoções e contato direto para compra.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-loja-roupas.vercel.app',
+    githubUrl: 'https://github.com/seu-usuario/modelo-loja-roupas',
+  },
+  {
+    title: 'Prestador de Serviços',
+    niche: 'Site para serviços locais',
+    description:
+      'Página profissional para divulgar serviços, área de atendimento, avaliações e orçamento pelo WhatsApp.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-prestador-servicos.vercel.app',
+    githubUrl: 'https://github.com/seu-usuario/modelo-prestador-servicos',
+  },
+];
+
+export default function Projects() {
+  return (
+    <section id="projetos" className="section-padding bg-slate-50">
+      <div className="container-page">
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <span className="text-sm font-semibold uppercase text-brand-600">Projetos</span>
+            <h2 className="section-title mt-3">Modelos de sites para clientes reais</h2>
+            <p className="section-description">
+              Acesse os modelos publicados e veja exemplos de páginas que podem ser adaptadas para
+              diferentes negócios.
+            </p>
+          </div>
+          <a href="#contato" className="secondary-button w-full sm:w-fit">
+            Solicitar orçamento
+          </a>
+        </div>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {projects.map((project) => (
+            <article key={project.title} className="card-base flex flex-col p-6">
+              <div className="flex-1">
+                <p className="text-sm font-semibold text-brand-600">{project.niche}</p>
+                <h3 className="mt-3 text-2xl font-bold text-ink">{project.title}</h3>
+                <p className="mt-4 leading-7 text-muted">{project.description}</p>
+
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {project.technologies.map((tech) => (
+                    <span
+                      key={tech}
+                      className="rounded-md bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                <a
+                  href={project.demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="primary-button"
+                >
+                  Ver site
+                  <ArrowUpRight size={17} />
+                </a>
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="secondary-button"
+                >
+                  Ver código
+                  <Github size={17} />
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
