@@ -1,10 +1,11 @@
 import { Github, Linkedin, Mail, MessageCircle } from 'lucide-react';
 
 const contactLinks = {
-  whatsapp: 'https://wa.me/5511999999999',
-  email: 'mailto:seuemail@email.com',
-  linkedin: 'https://linkedin.com/in/seu-perfil',
-  github: 'https://github.com/seu-usuario',
+  whatsapp: 'https://wa.me/5519999387274',
+  email: 'mailto:eduardo.fortes1108@gmail.com',
+  linkedin:
+    'https://www.linkedin.com/in/eduardo-fortes-8b6103390?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+  github: 'https://github.com/eduardofortes10',
 };
 
 export default function Contact() {

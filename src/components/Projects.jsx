@@ -8,8 +8,26 @@ const projects = [
     description:
       'Modelo moderno e responsivo para barbearias, com serviços, preços, galeria e botão de agendamento pelo WhatsApp.',
     technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-barbearia.vercel.app',
+    demoUrl: 'https://modelobarbearia-zeta.vercel.app/',
     githubUrl: 'https://github.com/seu-usuario/modelo-barbearia',
+  },
+  {
+    title: 'Clínica / Saúde',
+    niche: 'Site para clínica e área da saúde',
+    description:
+      'Modelo profissional para apresentar serviços, especialidades, informações da clínica e contato para agendamento.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://modelo-sa-de-portof-7fnyvsg8w-eduardofortes10s-projects.vercel.app/',
+    githubUrl: 'https://github.com/seu-usuario/modelo-clinica-saude',
+  },
+  {
+    title: 'Aluguel de Quadras',
+    niche: 'Sistema visual para aluguel de quadras',
+    description:
+      'Projeto de TCC para apresentar quadras disponíveis, informações do serviço e experiência simples para usuários.',
+    technologies: ['React', 'Tailwind CSS', 'Vite'],
+    demoUrl: 'https://aluguel-de-quadras-xomr.vercel.app/',
+    githubUrl: 'https://github.com/seu-usuario/aluguel-de-quadras',
   },
   {
     title: 'Pizzaria Bella Massa',
@@ -30,15 +48,6 @@ const projects = [
     githubUrl: 'https://github.com/seu-usuario/modelo-personal',
   },
   {
-    title: 'Clínica de Estética',
-    niche: 'Site para clínica e beleza',
-    description:
-      'Página elegante para apresentar procedimentos, diferenciais, equipe, localização e agendamento.',
-    technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-clinica-estetica.vercel.app',
-    githubUrl: 'https://github.com/seu-usuario/modelo-clinica-estetica',
-  },
-  {
     title: 'Loja de Roupas',
     niche: 'Vitrine online para loja',
     description:
@@ -46,15 +55,6 @@ const projects = [
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     demoUrl: 'https://modelo-loja-roupas.vercel.app',
     githubUrl: 'https://github.com/seu-usuario/modelo-loja-roupas',
-  },
-  {
-    title: 'Prestador de Serviços',
-    niche: 'Site para serviços locais',
-    description:
-      'Página profissional para divulgar serviços, área de atendimento, avaliações e orçamento pelo WhatsApp.',
-    technologies: ['React', 'Tailwind CSS', 'Vite'],
-    demoUrl: 'https://modelo-prestador-servicos.vercel.app',
-    githubUrl: 'https://github.com/seu-usuario/modelo-prestador-servicos',
   },
 ];
 
