@@ -12,11 +12,12 @@ export default function Hero() {
             Desenvolvedor Front-end Júnior
           </span>
           <h1 className="mt-6 max-w-4xl text-4xl font-extrabold tracking-normal text-ink sm:text-5xl lg:text-6xl">
-            Crio sites modernos, responsivos e profissionais para pequenos negócios.
+            Crio sites e sistemas web modernos para pequenos negócios.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
-            Desenvolvedor Front-end Júnior focado em landing pages, portfólios e páginas
-            comerciais com visual moderno e boa experiência para o usuário.
+            Desenvolvedor Front-end Júnior focado em landing pages, portfólios, páginas comerciais
+            e sistemas web sob medida, como pedidos para restaurantes, agendas, catálogos e
+            soluções digitais para organizar processos.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#projetos" className="primary-button">
@@ -33,7 +34,9 @@ export default function Hero() {
           <div className="flex items-start justify-between gap-6">
             <div>
               <p className="text-sm font-semibold uppercase text-brand-600">Stack principal</p>
-              <h2 className="mt-3 text-2xl font-bold text-ink">Sites rápidos, claros e responsivos</h2>
+              <h2 className="mt-3 text-2xl font-bold text-ink">
+                Sites rápidos, sistemas claros e interfaces responsivas
+              </h2>
             </div>
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-ink text-white">
               <Code2 size={24} />

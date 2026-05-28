@@ -1,4 +1,13 @@
-import { BriefcaseBusiness, Layout, MessageCircle, Palette, ShoppingBag, Utensils } from 'lucide-react';
+import {
+  BriefcaseBusiness,
+  CalendarCheck,
+  ClipboardList,
+  Layout,
+  MessageCircle,
+  Palette,
+  ShoppingBag,
+  Utensils,
+} from 'lucide-react';
 
 const services = [
   {
@@ -12,14 +21,25 @@ const services = [
     icon: BriefcaseBusiness,
   },
   {
+    title: 'Sistemas web personalizados',
+    description:
+      'Soluções sob medida para pedidos, agendas, cadastros, catálogos, reservas e outros fluxos do seu negócio.',
+    icon: ClipboardList,
+  },
+  {
     title: 'Portfólios pessoais',
     description: 'Portfólios organizados para profissionais apresentarem trabalhos, serviços e contatos.',
     icon: Palette,
   },
   {
-    title: 'Cardápios online',
-    description: 'Modelos digitais simples e responsivos para restaurantes, pizzarias e lanchonetes.',
+    title: 'Cardápios e pedidos online',
+    description: 'Modelos digitais para restaurantes, pizzarias e lanchonetes receberem pedidos com mais praticidade.',
     icon: Utensils,
+  },
+  {
+    title: 'Agendas e páginas de agendamento',
+    description: 'Interfaces para apresentar horários, serviços e facilitar solicitações de consulta ou atendimento.',
+    icon: CalendarCheck,
   },
   {
     title: 'Páginas com botão para WhatsApp',
@@ -38,13 +58,13 @@ export default function Services() {
     <section id="servicos" className="section-padding bg-white">
       <div className="container-page">
         <span className="text-sm font-semibold uppercase text-brand-600">Serviços</span>
-        <h2 className="section-title mt-3">Soluções para presença digital</h2>
+        <h2 className="section-title mt-3">Soluções para presença digital e sistemas web</h2>
         <p className="section-description">
-          Serviços pensados para profissionais autônomos e pequenos negócios que precisam de uma
-          página clara, bonita e fácil de acessar.
+          Serviços pensados para profissionais autônomos e pequenos negócios que precisam de sites,
+          páginas claras ou sistemas simples para organizar pedidos, agendas e atendimentos.
         </p>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service) => {
             const Icon = service.icon;
 
