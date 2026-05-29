@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'Sobre', href: '#sobre' },
   { label: 'Serviços', href: '#servicos' },
   { label: 'Projetos', href: '#projetos' },
+  { label: 'Automações', href: '#automacoes' },
   { label: 'Contato', href: '#contato' },
 ];
 
@@ -21,7 +22,7 @@ export default function Header() {
           Eduardo Fortes
         </a>
 
-        <nav className="hidden items-center gap-8 lg:flex" aria-label="Navegação principal">
+        <nav className="hidden items-center gap-6 lg:flex" aria-label="Navegação principal">
           {navLinks.map((link) => (
             <a
               key={link.href}
