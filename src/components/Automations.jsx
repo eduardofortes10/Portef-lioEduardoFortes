@@ -6,8 +6,8 @@ const automations = [
     title: 'Assistente para Petshop',
     niche: 'Automação para atendimento',
     description:
-      'Modelo de assistente automatizado para petshop, pensado para responder clientes, orientar sobre serviços e facilitar o primeiro contato.',
-    tools: ['Typebot', 'WhatsApp', 'Atendimento'],
+      'Modelo de assistente automatizado para petshop, pensado para responder clientes, orientar sobre serviços e facilitar o primeiro contato. Pode ser adaptado para integração com WhatsApp, Instagram ou outros canais de comunicação.',
+    tools: ['Typebot', 'WhatsApp', 'Instagram', 'Atendimento'],
     demoUrl: 'https://typebot.co/assistente-petshop-orm7t6t',
   },
 ];
@@ -22,7 +22,9 @@ export default function Automations() {
             <h2 className="section-title mt-3">Modelos de automações para negócios</h2>
             <p className="section-description">
               Catálogo de automações criadas para melhorar o atendimento, organizar pedidos,
-              responder clientes e facilitar processos do dia a dia.
+              responder clientes e facilitar processos do dia a dia. Os fluxos podem ser adaptados
+              para funcionar com WhatsApp, Instagram, formulários, links de atendimento ou outros
+              meios de comunicação usados pelo negócio.
             </p>
           </div>
           <a href="#contato" className="secondary-button w-full sm:w-fit">
@@ -72,7 +74,8 @@ export default function Automations() {
           <Workflow className="mt-1 shrink-0 text-brand-600" size={22} />
           <p className="leading-7 text-muted">
             Também desenvolvo automações personalizadas para restaurantes, agendas, pedidos,
-            reservas, atendimento inicial e outros fluxos que podem economizar tempo no seu negócio.
+            reservas, atendimento inicial e outros fluxos. A ideia é conectar a automação ao canal
+            que o cliente já usa, como WhatsApp, Instagram, site, formulário ou link direto.
           </p>
         </div>
       </div>
